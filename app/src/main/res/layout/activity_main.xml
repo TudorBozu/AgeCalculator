@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backg"
+    tools:context=".MainActivity"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:ignore="MissingClass">
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text1"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text2"
+        android:padding="10dp"
+        android:layout_marginVertical="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:background="@color/age"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        />
+<TextView
+    android:id="@+id/text3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/text3"
+    android:textColor="@color/black"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    android:padding="20dp"
+    android:layout_gravity="center_horizontal"
+
+    />
+
+    <Button
+        android:id="@+id/but1"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/butcolor"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:text="@string/text4"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="206dp" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:text="31.01.2022"
+        android:textSize="24dp"
+        android:padding="20dp"
+        android:textStyle="bold"
+        />
+<TextView
+    android:id="@+id/text6"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/text5"
+    android:layout_gravity="center_horizontal"
+    android:textSize="15sp"
+    android:textStyle="bold"
+    />
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:padding="20dp"
+        android:text="144000"
+        android:textSize="24dp"
+        />
+    <TextView
+        android:id="@+id/text8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text6"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+</androidx.appcompat.widget.LinearLayoutCompat>
